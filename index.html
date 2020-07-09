@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- banner -->
+    <section class="banner center" id="banner">
+      <h1 class="banner-heading">
+        Front End Developer
+      </h1>
+      <img src="images/mosiur.png" alt="John Smith" class="person-img" />
+      <h3 class="person-name">Mosiur Rahman</h3>
+      <a href="#projects" class="banner-btn">Projects</a>
+    </section>
+    <!-- End of banner -->
+
+    <!-- Navbar -->
+    <nav class="navbar center">
+      <a href="#banner" class="navbar-link">Home</a>
+      <a href="#about" class="navbar-link">About</a>
+      <a href="#projects" class="navbar-link">Projects</a>
+      <a href="#contact" class="navbar-link">Contact</a>
+    </nav>
+
+    <!-- End of Navbar -->
+
+    <!-- about -->
+    <section class="about" id="about">
+      <h1 class="contact-heading about-heading">About Me</h1>
+      <div class="progress-bars-wrapper">
+        <div class="progress-bar">
+          <p class="progress-text">
+            HTML
+            <span></span>%
+          </p>
+          <div class="progress-percent"></div>
+        </div>
+        <div class="progress-bar">
+          <p class="progress-text">
+            CSS
+            <span></span>%
+          </p>
+          <div class="progress-percent"></div>
+        </div>
+        <div class="progress-bar">
+          <p class="progress-text">
+            JAVASCRIPT
+            <span></span>%
+          </p>
+          <div class="progress-percent"></div>
+        </div>
+        <div class="progress-bar">
+          <p class="progress-text">
+            SASS
+            <span></span>%
+          </p>
+          <div class="progress-percent"></div>
+        </div>
+      </div>
+      <!-- service -->
+      <div class="services">
+        <div class="service">
+          <i class="far fa-lightbulb"></i>
+          <h2 class="service-heading">Creative</h2>
+        </div>
+        <div class="service">
+          <i class="fas fa-cut"></i>
+          <h2 class="service-heading">Problem Solving</h2>
+        </div>
+        <div class="service">
+          <i class="fas fa-tachometer-alt"></i>
+          <h2 class="service-heading">Fast</h2>
+        </div>
+      </div>
+    </section>
+    <!-- End of  -->
+
+    <!-- project -->
+    <section class="projects" id="projects">
+      <h1 class="contact-heading projects-heading">My Projects</h1>
+      <div class="projects-wrapper center">
+        <div class="project">
+          <div class="project-text">
+            <h2 class="project-name">Traffic Marketing</h2>
+            <h4 class="project-technologies">HTML / CSS / JS</h4>
+          </div>
+          <img src="images/project01.jpg" class="project-img" />
+          <a href="trafic-marketing/index.html" class="project-link" target="_blank">Go to link</a>
+        </div>
+        <div class="project">
+          <div class="project-text">
+            <h2 class="project-name">Active-Box</h2>
+            <h4 class="project-technologies">HTML / CSS / JS</h4>
+          </div>
+          <img src="images/project02.jpg" class="project-img" />
+          <a href="active-box/index.html" target="_blank">Go to link</a>
+        </div>
+        <div class="project">
+          <div class="project-text">
+            <h2 class="project-name">Developer profile</h2>
+            <h4 class="project-technologies">HTML / SCSS</h4>
+          </div>
+          <img src="images/project04.jpg" class="project-img" />
+          <a href="sass/index.html" class="project-link" target="_blank">Go to link</a>
+        </div>
+        <div class="project">
+          <div class="project-text">
+            <h2 class="project-name">CSS grid</h2>
+            <h4 class="project-technologies">HTML / CSS / JS</h4>
+          </div>
+          <img src="images/project03.jpg" class="project-img" />
+          <a href="grid-css/index.html" class="project-link" target="_blank">Go to link</a>
+        </div>
+      </div>
+    </section>
+    <!-- End of Section 3 -->
+
+    <!-- Section 4 -->
+    <section class="contact" id="contact">
+      <h1 class="contact-heading contact-heading">Contact Me</h1>
+      <p>Gmail: maserrahman595@gmail.com</p>
+      <p>Phone: +88 01571182371</p>
+      <form class="contact-form center">
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <textarea placeholder="Message"></textarea>
+        <input type="submit" value="Submit" class="contact-form-btn" />
+      </form>
+    </section>
+    <!-- End of Section 4 -->
+
+    <!-- Section 5 -->
+    <footer class="footer center">
+      <div class="social-media">
+        <a href="https://github.com/MosiurRrahman" target="_blank" class="social-media-link">
+          <i class="fab fa-github-square"></i>
+        </a>
+
+        <a href="https://www.facebook.com/maser.rahman" target="_blank" class="social-media-link">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+        <a href="https://www.instagram.com/maserrahman/" target="_blank" class="social-media-link">
+          <i class="fab fa-instagram-square"></i>
+        </a>
+      </div>
+      <p class="copyright">
+        Copyright 2020 &#10084; Mosiur. All Rights Reserved
+      </p>
+    </footer>
+    <!-- End of Section 5 -->
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
